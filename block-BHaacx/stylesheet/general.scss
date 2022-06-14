@@ -1,0 +1,91 @@
+$one: #f5e3d7;
+$two: #ecaf4e;
+$three: #fc683e;
+$four: #161616;
+$five: white;
+$six: rgb(179, 177, 177);
+$seven: rgb(100, 100, 100);
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Noto Sans Display', sans-serif;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify {
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 3rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 1.5rem;
+    color: $four;
+}
+
+.btn-primary {
+    background-color: $one;
+    border: 0.1rem solid $four;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.btn-secondary {
+    border: 0.5rem solid $five;
+    background-color: $five;
+    padding: 0.3rem 3.5rem;
+    margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 1.2rem 0;
+    font-weight: 100;
+    color: $seven;
+}
+
+$heading: 1;
+@while $heading <=6 {
+    h#{$heading} {
+        font-size: 2rem - ($heading * 0.25rem);
+    }
+    $heading: $heading + 1;
+}
+
+p {
+    font-size: 1rem;
+    color: $six;
+}
+
+.active {
+    color: $two;
+}
+
+.icons {
+    padding: 3rem 0;
+}
