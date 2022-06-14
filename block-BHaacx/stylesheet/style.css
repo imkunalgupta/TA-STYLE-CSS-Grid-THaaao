@@ -154,7 +154,7 @@ p {
 
 header {
   padding: 1rem 5.5rem;
-  background-color: white;
+  background-color: transparent;
   position: fixed;
   top: 0;
   left: 0;
