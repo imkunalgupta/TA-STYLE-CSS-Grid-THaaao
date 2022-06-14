@@ -1,0 +1,65 @@
+@import "reset";
+@import "general";
+
+@media screen and (max-width: 1280px){
+    .container {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 200px);
+        .first {
+            order: 0;
+        }
+        .third {
+            order: 1;
+        }
+        .fourth {
+            order: 2;
+        }
+        .fifth {
+            order: 3;
+        }
+        .sixth {
+            order: 4;
+        }
+        .second {
+            order: 5;
+        }
+    }
+}
+
+@media screen and (max-width: 760px){
+    .container {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .first {
+        order: 0;
+    }
+    .fourth {
+        order: 1;
+    }
+    .second {
+        order: 2;
+    }
+    .third {
+        order: 3;
+    }
+    .fifth {
+        order: 4;
+    }
+    .sixth {
+        order: 5;
+    }
+}
