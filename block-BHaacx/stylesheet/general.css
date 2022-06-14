@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.justify {
+  justify-content: flex-start;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  margin-top: 3rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 1.5rem;
+  color: #161616;
+}
+
+.btn-primary {
+  background-color: #f5e3d7;
+  border: 0.1rem solid #161616;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.btn-secondary {
+  border: 0.5rem solid white;
+  background-color: white;
+  padding: 0.3rem 3.5rem;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 1.2rem 0;
+  font-weight: 100;
+  color: rgb(100, 100, 100);
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.75rem;
+}
+
+h6 {
+  font-size: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: rgb(179, 177, 177);
+}
+
+.active {
+  color: #ecaf4e;
+}
+
+.icons {
+  padding: 3rem 0;
+}/*# sourceMappingURL=general.css.map */

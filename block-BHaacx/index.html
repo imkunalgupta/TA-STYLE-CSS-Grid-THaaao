@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid: Assignment 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <header class="flex">
+        <h3>Stimulus</h3>
+        <label for="toggle" class="bars">                
+            <i class="fa fa-fw fa-bars"></i> 
+        </label>     
+        <input type="checkbox" id="toggle" />
+        <nav class="nav">
+            <ul class="flex column">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="item item1"></div>
+        <div class="item item2">
+            <h5>Welcome to my website</h5>
+            <h1>Hello, I am <strong>Stimulus</strong> currently based in New York city.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quia vitae dolor dignissimos ducimus placeat odit itaque. Totam enim rerum eos earum vitae perspiciatis asperiores atque explicabo, soluta fugit itaque.</p>
+            <a href="#" class="btn btn-primary">Get started</a>
+        </div>
+        <div class="item item3">
+            <h2>Donec auctor</h2>
+            <p class="active">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequuntur maxime eaque neque.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, accusantium? Quas ut illum eveniet tempore laborum, aut quis dolore alias temporibus dolorum praesentium? Ratione eveniet deleniti corrupti. Voluptatem, ut quibusdam!</p>
+        </div>
+        <div class="item item4"></div>
+        <div class="item item5">
+            <h2>My Skills</h2>
+            <p>Photoshop, HTML CSS JS, Web Design</p>
+            <div class="flex">
+                <label for="fe">Frontend Design</label>
+                <p>90%</p>
+            </div>
+            <progress id="fe" value="90" max="100"> 90% </progress>
+            <div class="flex">
+                <label for="be">Backend Procressing</label>
+                <p>70%</p>
+            </div>
+            <progress id="be" value="70" max="100"> 70% </progress>
+            <div class="flex">
+                <label for="html">HTML5 & CSS3</label>
+                <p>80%</p>
+            </div>
+            <progress id="html" value="80" max="100"> 80% </progress>
+        </div>
+        <div class="item item6">
+            <div>
+                <i class="fa fa-desktop"></i>
+                <h3>Interface Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consequatur placeat distinctio tempore quo iusto molestiae maxime iure. Quis nemo ad mollitia deleniti.</p>
+            </div>            
+        </div>
+        <div class="item item7">
+            <div>
+                <i class="fa fa-paper-plane"></i>
+                <h3>Media Strategy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consequatur placeat distinctio tempore quo iusto molestiae maxime iure. Quis nemo ad mollitia deleniti.</p>
+            </div>   
+        </div>
+        <div class="item item8">
+            <div>
+                <i class="fa fa-calendar-alt"></i>
+                <h3>Mobile App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consequatur placeat distinctio tempore quo iusto molestiae maxime iure. Quis nemo ad mollitia deleniti.</p>
+            </div> 
+        </div>
+        <div class="item item9">
+            <div>
+                <i class="fa fa-css3-alt"></i>
+                <h3>Coding</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consequatur placeat distinctio tempore quo iusto molestiae maxime iure. Quis nemo ad mollitia deleniti.</p>
+            </div> 
+        </div>
+        <div class="item item10"></div>
+        <div class="item item11">
+            <h2>My Experiences</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="flex justify">
+                <i class="fa fa-laptop"></i>
+                <div>
+                    <h4>Graphic Designer <date>2014 Jul - 2015 Sep</date></h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex justify">
+                <i class="fa fa-laptop"></i>
+                <div>
+                    <h4>Web Designer <date>2015 Oct - 2017 Jan</date></h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item item12">
+            <h2>My Education</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="flex justify">
+                <i class="fa fa-laptop"></i>
+                <div>
+                    <h4>Master in Design <date>2012 Jan - 2014 May</date></h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex justify">
+                <i class="fa fa-laptop"></i>
+                <div>
+                    <h4>Bachelor of Arts <date>2008 May - 2011 Dec</date></h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item item13"></div>
+        <div class="item item14">
+            <h2>Say hello..</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisici.</p>
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <textarea name="message" placeholder="Write your message.." rows="10"></textarea>
+            <a href="#" class="btn btn-secondary">Send</a>
+        </div>
+        <div class="item item15"></div>
+        <div class="item item16">
+            <h3>Visit my office</h3>
+            <address>45+ New Street 22000, New York City, USA</address>
+            <h3>Contact</h3>
+            <phone>
+                <i class="fa fa-phone">01-0110-0220</i>
+            </phone><br>
+            <a href="mailto: hello@company.co">
+                <i class="fa fa-envelope">hello@company.co</i>
+            </a><br>
+            <a href="#">
+                <i class="fa fa-globe">company.co</i>
+            </a>
+        </div>
+        <div class="item item17">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6806.632272806616!2d76.2971305747891!3d31.46048867727875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391ad04695d782c3%3A0x4e8d18115bf3310e!2sRakkar%20Colony%2C%20Himachal%20Pradesh%20174303!5e0!3m2!1sen!2sin!4v1639403423537!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>            
+        </div>
+    </main>
+    <footer>
+        <small>Copyright &copy; 2016 Your Company | Design: <span class="active">templaterno</span> </small>
+        <div class="icons">
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-dribbble"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </footer>
+</body>
+</html>
